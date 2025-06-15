@@ -12,12 +12,12 @@ foodSet.delete('Burger')
 console.log(foodSet)
 
 //------4)
-function clearSet(Set) {
+function clear(Set) {
     if (Set.size > 2) {
         Set.clear()
     } 
 }
 
-clearSet(foodSet)
+clear(foodSet)
 
 console.log(foodSet)
